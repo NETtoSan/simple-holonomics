@@ -27,8 +27,8 @@ motrr = DCMotor(5, 18, 19)   # REAR RIGHT
 def run(fl:int, fr:int, rl:int, rr:int):
     motfl.set_speed(fl)
     motfr.set_speed(fr)
-    motfl.set_speed(rl)
-    motfl.set_speed(rr)
+    motrl.set_speed(rl)
+    motrr.set_speed(rr)
     print("-------")
     
 def dir_debug(fl: int, fr: int, rl: int, rr: int):
